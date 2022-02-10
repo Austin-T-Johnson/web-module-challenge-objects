@@ -159,8 +159,8 @@ Use the getLastReview function below to do the following:
 */
 
 
-function getLastReview(/*Your code here*/) {
-  /*Your code here*/
+function getLastReview(array) {
+  return getReviewByIndex(array, array.length - 1)
 } 
 
 
